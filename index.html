@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/libs/animate/animate.min.css" rel="stylesheet">
+    <link href="./assets/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="./assets/img/favicon.svg" type="image/svg">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <title>Animeslari</title>
+</head>
+
+<body> 
+    <div class="container-fluid margin-bottom-nav">
+
+    <!-- header -->
+    <header class="bg-header container-fluid">
+        <nav class="navbar">
+            <div class="menu-header container-fluid">
+                <a class="navbar-brand" href="index.html">
+                <img src="./assets/img/logo-header.svg" alt="logo-header" width="240" class="d-inline-block align-text-top">
+                </a>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="menu-item nav-link" href="#">explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu-item nav-link" href="#">mangá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu-item nav-link" href="#">favoritos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cadastro.html">
+                            <img src="./assets/img/login-icon.svg" width="40" alt="login">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fim-header -->
+
+    <div class="bg-sakura container-fluid">
+
+    <!-- caroussel-principal-novidades -->
+    <div class="container-fluid">
+            <span class="container-fluid"><h1 class="titulo-secao-novidades zoomIn">Novidades da semana</h1></span>
+
+        <div id="carouselExampleLight" class="carousel carousel-light slide container-fluid" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./assets/img/boruto-novidade.jpg" class="d-block w-100" alt="Boruto-Next-Generation">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Boruto</h5>
+                        
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/img/attackontitanovidade.jpg" class="d-block w-100" alt="Attack-On-Titan">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Attack On Titan</h5>                    
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                <img src="./assets/img/demonslayer-novidade.jpg" class="d-block w-100" alt="Demons-Slayers">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Demon Slayer</h5>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Fim-caroussel-principal-novidades -->
+
+
+
+    <!-- Mais-assistidos -->
+
+    <div class="mais-assistidos container-fluid">
+        <span class="separador-titulo container"><h1 class="titulo-secao-mais-assistidos bounce">Mais assistidos por você</h1> </span>
+
+        <div class="row">
+
+        <!-- naruto -->
+            
+        <div class="col-lg-3 col-md-6 col-sm-3 col-3">
+            <img src="./assets/img/naruto.jpg" data-bs-toggle="modal" data-bs-target="#narutoModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 450px;"  alt="Naruto Shippuden"/></a>
+                
+<!--modal-naruto -->
+            <div class="modal fade" id="narutoModal" aria-labelledby="narutoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="narutoModalLabel">Naruto Shippuden</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Naruto Shippuden é a continuação da primeira parte do mangá Naruto, e continua a mesma linha da história após a passagem de dois anos e meio no universo Naruto.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Assistir</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<!-- Fim-modal-naruto -->
+
+        </div>
+        <!-- Fim-naruto -->
+
+
+        <!-- pokemon -->
+
+            <div class="col-lg-3 col-md-6 col-sm-3 col-3">
+                <img src="./assets/img/pokemon.jpg" data-bs-toggle="modal" data-bs-target="#pokemonModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 450px;"  alt="Pokémon"/>
+
+<!-- modal-pokemon -->
+                <div class="modal fade" id="pokemonModal" aria-labelledby="pokemonModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="pokemonModalLabel">Pokémon</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <p> Pokémon Jornadas Supremas continua as aventuras de Ash Ketchum, Goh e Chloe pelas oito reigões do mundo Pokémon.</p>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Assistir</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+<!-- Fim-modal-pokemon -->
+
+            </div>
+        <!-- Fim-pokemon -->
+
+
+        <!-- one-piece -->
+            <div class="col-lg-3 col-md-6 col-sm-3 col-3">
+                <img src="./assets/img/onepiece.jpg" data-bs-toggle="modal" data-bs-target="#onePieceModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 450px;"  alt="One Piece "/>
+
+<!-- Modal-onePiece -->
+                <div class="modal fade" id="onePieceModal" aria-labelledby="onePieceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="onePieceModalLabel">OnePiece</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Monkey D. Luffy é um jovem inspirado por seu ídolo de infância e poderoso pirata Shanks, "o Ruivo", e decide sair em uma jornada pelo mar East Blue para encontrar o famoso tesouro One Piece e proclamar-se o Rei dos Piratas.</p>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Assistir</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+<!-- Fim-Modal-onePiece -->
+
+            </div>
+        <!-- Fim-one-piece -->
+
+
+        <!-- cavaleiro-dos-zodiacos -->
+            <div class="col-lg-3 col-md-6  col-sm-3 col-3">
+                <img src="./assets/img/cdz.jpg" data-bs-toggle="modal" data-bs-target="#cdzModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 450px;"  alt="Cavaleiro dos Zodiacos"/>
+
+<!-- Modal-cavaleiro-dos-zodiacos -->
+                <div class="modal fade" id="cdzModal" aria-labelledby="cdzModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="cdzModalLabel">Caveleiros Dos Zodíacos</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>A série segue com os Cavaleiros de Bronze e sua luta contra guerreiros prolíficos na busca de se tornarem guerreiros da Deusa Athena, enquanto Seiya ao mesmo tempo procura sua irmã desaparecida.</p>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Assistir</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+<!-- Fim-Modal-cavaleiro-dos-zodiacos -->
+
+            </div>
+        <!-- Fim-cavaleiro-dos-zodiacos -->
+
+        </div>
+    </div>
+
+    <!-- Fim-mais-assistidos -->
+
+
+    <!-- Indicados-para-voce -->
+
+    <div class="indicados-para-voce container-fluid">
+        <span class="separador-titulo container"><h1 class="titulo-secao-indicados bounce">Indicados para você</h1> </span>
+
+        <div class="indicados-config row">
+
+            <!-- Sailor-moon -->
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <img src="./assets/img/sailormoon.jpg" data-bs-toggle="modal" data-bs-target="#sailorMoonModal"  class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Sailor Moon"/>
+<!-- modal-sailormoon-modal -->
+                    <div class="modal fade" id="sailorMoonModal" aria-labelledby="sailorMoonModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="sailorMoonModalLabel">Sailor Moon</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <p> Assista e descubra novas aventuras.</p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">Assistir</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+<!-- Fim-sailormoon-modal -->
+                </div>
+            <!-- Fim-sailor-moon -->
+
+
+            <!-- Death-note -->
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <img src="./assets/img/deathnote.jpg" data-bs-toggle="modal" data-bs-target="#deathNoteModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Death Note"/>
+<!-- Death-note-modal -->
+                    <div class="modal fade" id="deathNoteModal" aria-labelledby="deathNoteModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="deathNoteModalLabel">Death Note</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <p> Assista e descubra novas aventuras.</p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">Assistir</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+<!-- Fim-Death-note-modal -->
+                </div>
+            <!-- Fim-Death-note -->
+
+
+            <!-- Sakura-Card-Captors -->
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <img src="./assets/img/scc.jpg" data-bs-toggle="modal" data-bs-target="#sakuraCardCaptorsModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Sakura Card Captors"/>
+<!-- Sakura-Card-Captors-modal -->
+                    <div class="modal fade" id="sakuraCardCaptorsModal" aria-labelledby="sakuraCardCaptorsModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="sakuraCardCaptorsModalLabel">Sakura Card Captors</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <p> Assista e descubra novas aventuras.</p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">Assistir</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+<!-- Fim-Sakura-Card-Captors-modal -->
+                
+                </div>
+            <!-- Fim-Sakura-Card-Captors -->
+
+
+            <!-- Dragon-Ball-Super -->
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <img src="./assets/img/dbsuper.jpg" data-bs-toggle="modal" data-bs-target="#dragonBallSuperModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Dragon Ball Super"/>
+<!-- Dragon-Ball-Super-modal -->
+                    <div class="modal fade" id="dragonBallSuperModal" aria-labelledby="dragonBallSuperModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="dragonBallSuperModalLabel">Dragon Ball Super</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <p> Assista e descubra novas aventuras.</p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">Assistir</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+<!-- Fim-Dragon-Ball-Super-modal -->
+                </div>
+                <!-- Fim-Dragon-Ball-Super -->
+
+
+            <!-- Fullmetal-Alchemist -->
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <img src="./assets/img/fullmetal.jpg" data-bs-toggle="modal" data-bs-target="#fullmetalAlchemistModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Fullmetal Alchemist"/>
+<!-- Fullmetal-Alchemist-modal -->
+                    <div class="modal fade" id="fullmetalAlchemistModal" aria-labelledby="fullmetalAlchemistModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="fullmetalAlchemistModalLabel">Fullmetal Alchemist</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <p> Assista e descubra novas aventuras.</p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">Assistir</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+<!-- Fim-Fullmetal-Alchemist-modal -->
+                </div>
+            <!-- Fim-Fullmetal-Alchemist -->
+
+
+            <!-- Yu-Yu-Hakusho -->
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <img src="./assets/img/yuyuhakusho.jpg" data-bs-toggle="modal" data-bs-target="#yuYuHakushoModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Yu Yu Hakusho"/>
+<!-- Yu-Yu-Hakusho-modal -->
+                    <div class="modal fade" id="yuYuHakushoModal" aria-labelledby="yuYuHakushoModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="yuYuHakushoModalLabel">Yu Yu Hakusho</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <p> Assista e descubra novas aventuras.</p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">Assistir</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+<!-- Fim-Yu-Yu-Hakusho-modal -->
+                </div>
+            <!-- Yu-Yu-Hakusho -->
+
+        </div> <!-- fechamento div row -->
+    </div> <!-- fechamento div indicados -->
+
+    <!-- Fim-Indicados-para-voce -->
+
+
+    <!-- Em-alta -->
+
+    <div class="em-alta container-fluid">
+        <span class="separador-titulo container"><h1 class="titulo-secao-alta bounce">Em alta</h1> </span>
+
+        <div class="row">
+
+            <!-- seven-deadly-sins -->
+            <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                <img src="./assets/img/sevendeadlysins.jpg" data-bs-toggle="modal" data-bs-target="#sevendeadlysinsModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Seven Deadly Sins"/>
+<!-- seven-deadly-sins-modal -->
+            <div class="modal fade" id="sevendeadlysinsModal" aria-labelledby="sevendeadlysinsModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="sevendeadlysinsModalLabel">Seven Deadly Sins</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Assista e descubra novas aventuras.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Assistir</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<!-- Fim-seven-deadly-sins-modal -->
+            
+            </div>
+            <!-- Fim-seven-deadly-sins -->
+
+
+            <!-- Promised-Neverland -->
+            <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                <img src="./assets/img/promsedneverland.jpg" data-bs-toggle="modal" data-bs-target="#promisedNeverlandModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Promised Neverland"/>
+<!-- Promised-Neverland-modal -->
+                <div class="modal fade" id="promisedNeverlandModal" aria-labelledby="promisedNeverlandModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="promisedNeverlandModalLabel">The Promised Neverland</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <p>Assista e descubra novas aventuras.</p>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Assistir</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+<!-- Fim-Promised-Neverland-modal -->
+            </div>
+            <!-- Fim-Promised-Neverland -->
+
+
+            <!-- bleach -->
+            <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                <img src="./assets/img/bleach.jpg" data-bs-toggle="modal" data-bs-target="#bleachModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Bleach"/>
+<!-- bleach-modal -->
+            <div class="modal fade" id="bleachModal" aria-labelledby="bleachModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="bleachModalLabel">Bleach</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Assista e descubra novas aventuras.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Assistir</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<!-- Fim-bleach-modal -->
+            </div>
+            <!-- bleach -->
+
+
+            <!-- Hunter x Hunter -->
+            <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                <img src="./assets/img/hunterxhunter.jpg" data-bs-toggle="modal" data-bs-target="#hunterXhunterModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Hunter x Hunter"/>
+<!-- Hunter x Hunter-modal -->
+            <div class="modal fade" id="hunterXhunterModal" aria-labelledby="hunterXhunterModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="hunterXhunterModalLabel">Hunter x Hunter</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Assista e descubra novas aventuras.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Assistir</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<!-- Fim-Hunter x Hunter-modal -->
+            </div>
+            <!-- Fim-Hunter x Hunter -->
+
+
+            <!-- Digimon -->
+            <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                <img src="./assets/img/digimon.jpg" data-bs-toggle="modal" data-bs-target="#digimonModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="Digimon"/>
+<!-- digimon-modal -->
+            <div class="modal fade" id="digimonModal" aria-labelledby="digimonModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="digimonModalLabel">Digimon</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Assista e descubra novas aventuras.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Assistir</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<!-- Fim-digimon-modal -->
+            </div>
+            <!-- Fim-Digimon -->
+
+
+            <!-- one-punch-man -->
+            <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                <img src="./assets/img/onepunchman.jpg" data-bs-toggle="modal" data-bs-target="#onePunchManModal" class="zoom-catalogo-img img-fluid shadow-1-strong rounded mb-4" style="width: 300px;"  alt="One Punch Man"/>
+<!-- one-punch-man-modal -->
+            <div class="modal fade" id="onePunchManModal" aria-labelledby="onePunchManModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="onePunchManModalLabel">One Punch Man</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Assista e descubra novas aventuras.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Assistir</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<!-- Fim-one-punch-man-modal -->
+            </div>
+
+            <!-- Fim-one-punch-man -->
+
+        </div> <!-- fechamento div row -->
+    </div> <!-- fechamento div indicados -->
+
+    <!-- Fim-Em-alta -->
+
+
+    <footer class="footer-index navbar bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">animeslari</a>
+            <div class="footer-redes">
+                <a href="./">
+                <img src="./assets/img/instagram-icon.png" width="35" height="35" alt="instagram" class="icon-footer d-inline-block align-text">
+                </a>
+                <a href="./">
+                <img src="./assets/img/facebbok-icon.png" width="35" height="35" alt="Facebook" class="icon-footer d-inline-block align-text">
+                </a>           
+            </div>
+        </div>        
+    </footer>
+
+</div>
+
+</div>
+<script src="./assets/libs/bootstrap/bootstrap.bundle.js"></script>
+</body>
+
+</html>
